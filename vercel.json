@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "public/pattern-marker.patt",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/pattern-marker.patt",
+        "dest": "/public/pattern-marker.patt"
+      }
+    ]
+  }
+  
